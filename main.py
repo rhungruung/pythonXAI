@@ -1,3 +1,5 @@
-print("appls")
-git config --global user.name "rhungruung"
-git config --global user.email "weijeremy1018@gmail.com"
+import streamlit as st
+
+
+# streamlit.little("這是首頁")
+st.title("這是標題")
