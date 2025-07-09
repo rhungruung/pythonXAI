@@ -12,6 +12,6 @@ if st.button("按我一下3", key="btn3"):
 st.write("---")
 
 st.write("## 金字塔遊戲")
-num = st.number_input("請輸入一個數字"(1到9)", min_value=1, max_value=9,step=1)
+num = st.number_input("請輸入一個數字(1到9)", min_value=1, max_value=9, step=1)
 for i in range(1, num + 1):
-    st.writef("{i}"*i)
+    st.write(f"{i}" * i)
