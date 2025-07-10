@@ -8,6 +8,7 @@ if "order" not in st.session_state:
 col1, col2 = st.columns(2)  # 2欄
 with col1:
     foodInput = st.text_input("請輸入餐點")  # 建立一個輸入框
+with col2:
     if st.button("加入", key="add"):  # 如果按下按鈕
         st.session_state.order.append(foodInput)  # 把餐點加到購物車
 
